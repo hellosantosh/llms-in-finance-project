@@ -6,3 +6,15 @@ SOLUTION:
 Using Agentic Doc Extractor, read analyst ratings pdfs from different analysts and print out a side-by-side data for each of them. The data could be price target, buy/sell ratings, summary of the recommendation, etc. 
 
 The Agentic Document Extractor is located at: https://github.com/landing-ai/agentic-doc 
+
+RUN:
+- Create a virtual conda env, activate it:
+``` 
+    conda create -n condavenv python=3.13.5
+    conda activate condavenv
+```
+- To deactivate
+```
+    conda deactivate
+```
+
