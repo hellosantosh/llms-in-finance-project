@@ -7,7 +7,7 @@ Using Agentic Doc Extractor, read analyst ratings pdfs from different analysts a
 
 The Agentic Document Extractor is located at: https://github.com/landing-ai/agentic-doc 
 
-RUN:
+PRE-REQUISITE:
 - Create a virtual conda env, activate it:
 ``` 
     conda create -n condavenv python=3.13.5
@@ -17,4 +17,8 @@ RUN:
 ```
     conda deactivate
 ```
+
+To Run:
+
+
 
