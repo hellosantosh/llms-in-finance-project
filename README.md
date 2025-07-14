@@ -18,7 +18,13 @@ PRE-REQUISITE:
     conda deactivate
 ```
 
-To Run:
+TO RUN:
+-- pip install -r requirements.txt
+-- python app.py
 
+RESULTS:
+This uses the agentic-doc API from landing.ai to parse and extract a bunch of PDF documents recursively from a top level folder. In this case, the top-level folder is "analyst_reports". I have included analyst reports for two stocks - AMD and NVDA. The results are stored in the "results" folder. The grounding is stored in the "groundings" folder. 
 
+NEXT STEPS:
+We now have a comprehensive set of parsed output data in markdown format from PDF documents. This can easily be fed to an LLM using RAG. The goal is to create a UI that takes a stock ticker as input and show the analyst ratings side-by-side from different "sell side" companies like Argus, ISS-EVA, Jefferson Research, LSEG, McLean Equity Research, and Zacks. The UI will show useful information from each analyst report like price target, buy/sell recommendation, company outlook, strengths, weaknesses, etc. The grounding data in the "grounding" directly will be used for evaluating the LLM Outputs. 
 
